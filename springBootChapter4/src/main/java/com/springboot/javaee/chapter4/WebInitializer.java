@@ -1,4 +1,4 @@
-package com.springboot.javaee.chapter4.hello;
+package com.springboot.javaee.chapter4;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

@@ -40,7 +40,7 @@ public class DemoAnnoController {
         return "url" + request.getRequestURL() + " can access, obj id: " + obj.getId() + ", obj name:" + obj.getName();
     }
 
-    @RequestMapping(value = {"/name", "/name2"}, produces = "text/plain;charset=UTF-8")
+    @RequestMapping(value = {"/name1", "/name2"}, produces = "text/plain;charset=UTF-8")
     public @ResponseBody
     String remove(HttpServletRequest request) {
         return "url:" + request.getRequestURL() + " can access";
